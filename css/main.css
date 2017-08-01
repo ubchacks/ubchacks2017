@@ -92,7 +92,6 @@ a:hover, a:focus {
 	color: #FFFFFF;
 }
 
-
 /*------------------Buttons---------------------*/
 .btn:focus {
   outline: 0px auto -webkit-focus-ring-color;
@@ -300,7 +299,7 @@ header {
   position: relative;
   width: 100%;
   margin-left: 0px;
-  padding-top: 10%;
+  padding-top: 25%;
 }
 
 .signin {
