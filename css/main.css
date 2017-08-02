@@ -11,6 +11,7 @@
 /* ==========================================================================
    Global styles
    ========================================================================== */
+
 h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
   font-family: 'Averia Sans Libre', sans-serif;
 }
@@ -284,7 +285,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: linear-gradient(#c8a8cc,#bb97e8 10%,transparent),url(../img/header-bg.png) no-repeat center center;
+  background: linear-gradient(#B993D6,#8CA6DB 40%,transparent),url(../img/header-bg.png) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -299,7 +300,7 @@ header {
   position: relative;
   width: 100%;
   margin-left: 0px;
-  padding-top: 25%;
+  padding-top: 10%;
 }
 
 .signin {
@@ -372,8 +373,8 @@ header {
 
 
 
-#be-the-first {
-  background: linear-gradient(#5DB1C0 80%,transparent) no-repeat center center fixed;
+#about {
+  /*background: linear-gradient(#4ec3cd ,transparent) no-repeat center center fixed;*/
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -417,17 +418,17 @@ hr.line {
 
 
 #invite {
-  background: #f2f2f2;
+  background: linear-gradient( #5DB1C0, #ACB6E5 50%) no-repeat center center fixed;
 }
 
 .fa-envelope-o {
-  color: #4ec3cd;
+  color: #ffffff;
   font-size: 22px;
   display: block;
   padding-top: 15px;
   width: 60px;
   height: 60px;
-  border: 2px solid #4ec3cd;
+  border: 2px solid #ffffff;
   -moz-border-radius: 30px;
   -o-border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -443,7 +444,8 @@ hr.line {
 }
 
 .news-img {
-  padding-right: 20px;
+  padding-right: 30px;
+  filter: grayscale(100%);
 }
 
 footer {
@@ -568,7 +570,14 @@ footer {
     border-radius: 0;
 }
 
+div.col-sm-8.col-sm-offset-2.text-center{
+  padding-right: 30px;
+}
 
+.row{
+  margin-right: -15px;
+  margin-left: 0px;
+}
 
 
 /* ==========================================================================
