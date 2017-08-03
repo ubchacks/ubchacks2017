@@ -1,12 +1,9 @@
-
+function playSound() {
+      var sound = document.getElementById("audio");
+      sound.play();
+  }
 
 $(document).ready(function(){
-
-
-
-  //------------------------------------//
-  //Navbar//
-  //------------------------------------//
     	var menu = $('.navbar');
     	$(window).bind('scroll', function(e){
     		if($(window).scrollTop() > 140){
@@ -20,19 +17,12 @@ $(document).ready(function(){
     		}
     	});
 
-
-  //------------------------------------//
-  //Scroll To//
-  //------------------------------------//
   $(".scroll").click(function(event){
   	event.preventDefault();
   	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
 
   });
 
-  //------------------------------------//
-  //Wow Animation//
-  //------------------------------------//
   wow = new WOW(
         {
           boxClass:     'wow',      // animated element css class (default is wow)
