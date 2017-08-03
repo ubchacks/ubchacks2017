@@ -457,6 +457,10 @@ footer {
   opacity: 0.5;
 }
 
+#press img{
+  filter: grayscale(100%);
+}
+
 
 
 /*---------------Pricing Tables-------------------*/
